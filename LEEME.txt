@@ -1,0 +1,7 @@
+1) Edita config.js (número de WhatsApp, nombre, envío, dirección).
+2) Fotos: coloca img/<id>.jpg para cada producto (ids en data.js). Si falta, se muestra una ilustración.
+3) Agrega productos copiando un bloque en data.js.
+4) Sube toda la carpeta a Netlify, Vercel, GitHub Pages o tu hosting.
+5) Completa el aviso legal en info.html.
+6) Transfermóvil: guarda tu QR real en img/ (ej. img/qr-transfermovil.png), cambia la ruta en config.js (transfermovil.qr), el enlace (transfermovil.enlace) y tus datos (titular, cuenta). El QR actual es solo de prueba.
+7) Base de datos (Supabase, gratis): crea un proyecto en supabase.com > SQL Editor > pega y ejecuta supabase.sql > Settings > API: copia "Project URL" y la clave "anon public" en config.js (supabase.url / supabase.anonKey). Verás los pedidos en Table Editor (tabla pedidos) y los clientes en la vista clientes. Cambia la columna estado según avance el pedido.
